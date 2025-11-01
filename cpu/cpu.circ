@@ -108,7 +108,7 @@
       <a name="label" val="t0"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(1070,400)" name="Tunnel">
+    <comp lib="0" loc="(1080,440)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="ProgramCounter"/>
       <a name="width" val="32"/>
@@ -632,9 +632,9 @@
     <wire from="(1040,1050)" to="(1040,1100)"/>
     <wire from="(1050,190)" to="(1050,220)"/>
     <wire from="(1070,210)" to="(1120,210)"/>
-    <wire from="(1070,400)" to="(1080,400)"/>
-    <wire from="(1080,400)" to="(1080,490)"/>
-    <wire from="(1080,490)" to="(1110,490)"/>
+    <wire from="(1080,440)" to="(1090,440)"/>
+    <wire from="(1090,440)" to="(1090,490)"/>
+    <wire from="(1090,490)" to="(1110,490)"/>
     <wire from="(1090,640)" to="(1120,640)"/>
     <wire from="(110,340)" to="(130,340)"/>
     <wire from="(1120,500)" to="(1120,540)"/>

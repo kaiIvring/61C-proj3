@@ -431,6 +431,10 @@
       <a name="label" val="Instruction"/>
       <a name="width" val="32"/>
     </comp>
+    <comp lib="0" loc="(1260,540)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="is_jal"/>
+    </comp>
     <comp lib="0" loc="(130,1030)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="Funct7"/>
@@ -462,6 +466,10 @@
     <comp lib="0" loc="(130,2260)" name="Constant">
       <a name="value" val="0x3b3"/>
       <a name="width" val="17"/>
+    </comp>
+    <comp lib="0" loc="(1300,670)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="is_jalr"/>
     </comp>
     <comp lib="0" loc="(1350,1320)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -1861,7 +1869,7 @@
       <a name="inputs" val="3"/>
     </comp>
     <comp lib="1" loc="(1370,610)" name="OR Gate">
-      <a name="inputs" val="4"/>
+      <a name="inputs" val="6"/>
     </comp>
     <comp lib="2" loc="(940,2520)" name="Priority Encoder">
       <a name="select_enc" val="6"/>
@@ -2108,8 +2116,11 @@
     <wire from="(1240,630)" to="(1320,630)"/>
     <wire from="(1250,580)" to="(1250,600)"/>
     <wire from="(1250,600)" to="(1320,600)"/>
+    <wire from="(1260,540)" to="(1290,540)"/>
     <wire from="(1280,480)" to="(1280,590)"/>
     <wire from="(1280,590)" to="(1320,590)"/>
+    <wire from="(1290,540)" to="(1290,580)"/>
+    <wire from="(1290,580)" to="(1320,580)"/>
     <wire from="(130,1030)" to="(160,1030)"/>
     <wire from="(130,1050)" to="(130,1060)"/>
     <wire from="(130,1050)" to="(160,1050)"/>
@@ -2117,6 +2128,9 @@
     <wire from="(130,1070)" to="(160,1070)"/>
     <wire from="(130,2220)" to="(190,2220)"/>
     <wire from="(130,2260)" to="(140,2260)"/>
+    <wire from="(1300,670)" to="(1310,670)"/>
+    <wire from="(1310,640)" to="(1310,670)"/>
+    <wire from="(1310,640)" to="(1320,640)"/>
     <wire from="(1350,1320)" to="(1410,1320)"/>
     <wire from="(1350,1350)" to="(1360,1350)"/>
     <wire from="(1360,1340)" to="(1360,1350)"/>
